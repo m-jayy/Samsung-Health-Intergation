@@ -1,0 +1,5 @@
+include ':app'
+rootProject.name = "SamsungHealth"
+
+include ':rn-samsung-health'
+project(':rn-samsung-health').projectDir = new File(settingsDir, '../node_modules/rn-samsung-health/android')
